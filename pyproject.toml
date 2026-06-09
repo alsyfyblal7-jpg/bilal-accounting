@@ -21,8 +21,5 @@ project = "بلال المحاسبي البسيط"
 # إعدادات Android
 adaptive_icon_background = "#059669"
 permissions = ["INTERNET"]
-# إعدادات الأصول والأيقونة
-assets_dir = "assets"
-
-[tool.flet.android]
 adaptive_icon_foreground = "assets/icon.png"
+
