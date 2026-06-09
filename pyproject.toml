@@ -1,0 +1,23 @@
+[project]
+name = "bilal-accountant"
+version = "1.0.0"
+description = "تطبيق بلال المحاسبي البسيط - لإدارة حسابات العملاء والديون"
+authors = [
+    {name = "Bilal", email = "bilal@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "flet>=0.21.0",
+]
+
+[tool.flet]
+# إعدادات بناء التطبيق
+org = "com.bilal"
+product = "BilalAccountant"
+project = "بلال المحاسبي البسيط"
+
+[tool.flet.android]
+# إعدادات Android
+adaptive_icon_background = "#059669"
+permissions = ["INTERNET"]

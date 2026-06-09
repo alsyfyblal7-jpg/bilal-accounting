@@ -1,0 +1,24 @@
+{
+  "customers": [
+    {
+      "id": "1780866593280doh0ddn6r",
+      "name": "بلال الصيفي",
+      "phone": "778279367",
+      "creditLimit": 0,
+      "transactions": [
+        {
+          "id": "17808666239189ekbz5tb8",
+          "type": "debt",
+          "amount": 200,
+          "description": "زبادي",
+          "date": "2026-06-07T21:10:23.919Z"
+        }
+      ],
+      "createdAt": "2026-06-07T21:09:53.281Z"
+    }
+  ],
+  "settings": {
+    "name": "البقالة",
+    "logo": null
+  }
+}
