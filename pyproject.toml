@@ -12,14 +12,13 @@ dependencies = [
 ]
 
 [tool.flet]
-# إعدادات بناء التطبيق
+# إعدادات بناء التطبيق (تعديل الاسم للإنجليزية لضمان نجاح البناء)
 org = "com.bilal"
 product = "BilalAccountant"
-project = "بلال المحاسبي البسيط"
+project = "Bilal Accountant"
 
 [tool.flet.android]
-# إعدادات Android
+# إعدادات الأندرويد والأيقونة وصلاحيات الإنترنت للسيرفر الداخلي
 adaptive_icon_background = "#059669"
 permissions = ["INTERNET"]
 adaptive_icon_foreground = "assets/icon.png"
-
