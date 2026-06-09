@@ -9,8 +9,9 @@ import os
 from datetime import datetime
 
 # ملف البيانات
-DATA_FILE = "bilal_data.json"
-
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_FILE = os.path.join(BASE_DIR, "bilal_data.json")
 def load_data():
     try:
         if os.path.exists(DATA_FILE):
